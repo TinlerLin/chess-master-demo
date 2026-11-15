@@ -1,0 +1,1 @@
+var e=[{id:`botRookie`,skill:0},{id:`botCasual`,skill:4},{id:`botClub`,skill:8},{id:`botAdvanced`,skill:12},{id:`botExpert`,skill:18},{id:`botEngine`,skill:20}];function t(t){return e.reduce((n,r,i)=>Math.abs(r.skill-t)<Math.abs(e[n].skill-t)?i:n,0)}export{t as n,e as t};
